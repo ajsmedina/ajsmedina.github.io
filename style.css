@@ -12,7 +12,7 @@ p {
     font-size: 20px;
 }
 
-div #nav { 
+#nav { 
 	text-align: center;
 	background-color: lightgrey;
 	color:red;
@@ -21,7 +21,7 @@ float: left;
 position: relative;
 }
 
-div #content {
+#content {
 	text-align: center;
 float: right;
 position: absolute;

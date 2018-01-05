@@ -14,15 +14,15 @@ p {
 
 #nav { 
 	text-align: center;
-	background-color: lightgrey;
+	background-color: red;
 	color:red;
 	width = 20%;
-float: left;
-position: relative;
+	float: left;
+	position: relative;
 }
 
 #content {
 	text-align: center;
-float: right;
+margin-left: 20%;
 position: absolute;
 }

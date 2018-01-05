@@ -1,5 +1,6 @@
 body {
     background-color: lightblue;
+	color: black;
 }
 
 h1 {
@@ -14,15 +15,18 @@ p {
 
 #nav { 
 	text-align: center;
-	background-color: red;
-	color:red;
+	background-color: lightgrey;
+	color: red;
 	width = 20%;
 	float: left;
 	position: relative;
+	height = 100%
 }
 
 #content {
 	text-align: center;
 margin-left: 20%;
+float: right;
+width: 80%;
 position: absolute;
 }

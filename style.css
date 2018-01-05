@@ -14,5 +14,15 @@ p {
 
 div #nav { 
 	text-align: center;
+	background-color: lightgrey;
 	color:red;
+	width = 20%;
+float: left;
+position: relative;
+}
+
+div #content {
+	text-align: center;
+float: right;
+position: absolute;
 }

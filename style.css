@@ -23,7 +23,6 @@ p {
 	width: 20%;
 	position: fixed;
 	height: 100%;
-	border-radius: 15px;
 }
 
 #content {
@@ -35,6 +34,7 @@ height: 100%;
 position: absolute;
 background-color: #grey;
 	background-color: azure;
+	border-left: 5px grey solid;
 }
 
 h2 {
@@ -94,25 +94,33 @@ h3 {
 	padding-top: 30px;
 }
 
-.cleft div{
-	
-}
-
 .bod {
 	margin: 0px;
 	min-height: 35%;
 	min-height: 350px;
 	margin-bottom: 5%;
-	margin-left: 15%;
-	margin-right: 15%;
-	border: 5px grey solid;
-	
-	min-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px grey solid;
+	width: 60%;
+	max-width: 750px;
+}
+
+.cbod {
+	min-width: 50%;
+}
+
+.cleft .cbod {
+	margin-right: 30px;
+	padding-left: 30px;
+}
+.cright .cbod {
+	margin-left: 30px;
+	padding-right: 30px;
 }
 
 .cleft {
 	text-align: left;
-	padding-left: 30px;
 	background-color: white;
 	
 }
@@ -129,12 +137,33 @@ h3 {
 	padding: 0px;
 	margin: 0px;
 	height: 100%;
-	
-}
-.cleft img {
-	float: right;
+	display: inline;
 }
 
+
+.cleft img {
+	height: 100%;
+	min-width: 500px;
+	width: 100%;
+}
 .cright img {
+	height: 100%;
+	min-width: 500px;
+	width: 100%;
+}
+
+.imgbod {
+	width: 100%;
 	float: left;
+}
+
+img.inlineimgdiv {
+	min-width: 100%;
+}
+
+img.inlineimg {
+	float: none;
+	display: block; /*for the img inside your div */  
+margin-left: auto ;
+margin-right: auto; 
 }

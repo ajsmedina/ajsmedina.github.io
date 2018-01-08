@@ -27,21 +27,27 @@ td {
 	height: 100%;
 }
 
-img {
+.icon img {
+    transition-duration: 0.5s;
 	max-width: 250px;
-	width: 60%;
 }
 
 .icon {
 	opacity: 1;
+    transition-duration: 0.5s;
 }
 
 .icon:hover{
 	opacity: 0.5;
 }
+.icon:hover img{
+	max-width: 300px;
+	opacity: 0.5;
+}
 
 .icon:active {
 	opacity: 0.8;
+	transition-duration: 0s;
 }
 
 .icontext {

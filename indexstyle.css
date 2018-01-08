@@ -40,6 +40,10 @@ img {
 	opacity: 0.5;
 }
 
+.icon:active {
+	opacity: 0.8;
+}
+
 .icontext {
 	opacity: 0;
 }

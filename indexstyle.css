@@ -59,7 +59,20 @@ td {
 }
 
 #face {
-	max-width: 400px;
+	width: 100%;/.,m/0.0	max-width: 400px;
+}
+
+h2 {
+	color: black;
+	}
+h2:hover {
+	color: black;
+}
+h2:active {
+	color: black;
+}
+h2:visited {
+	color: black;
 }
 
 #content {
@@ -68,5 +81,6 @@ td {
 	width: 100%;
 	max-width: 1000px;
 	height: 80%;
+	transition-duration: 0.5s;
 	max-height: 100%;
 }

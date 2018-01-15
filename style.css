@@ -1,5 +1,5 @@
 body {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: verdana, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     background-color: azure;
 	color: black;
 margin: 0px;
@@ -111,9 +111,9 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px grey solid;
-	min-width: 500px;
 	width: 40%;
-	max-width: 650px;
+	min-width: 350px;
+	max-width: 600px;
 }
 
 .cbod {
@@ -144,12 +144,6 @@ h3 {
 
 .bod img {
 	height: 100%;
-	min-width: 500px;
-	width: 100%;
-}
-.bod img {
-	height: 100%;
-	min-width: 500px;
 	width: 100%;
 }
 

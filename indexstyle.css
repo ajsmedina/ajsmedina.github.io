@@ -16,21 +16,22 @@ h1 {
 
 .icon img {
     transition-duration: 0.5s;
-	height: 70%;
+	height: 20%;
 	max-height: 200px;
 }
 
 .icon {
 	opacity: 1;
     transition-duration: 0.5s;
-	height: 50%;
+	height: 30%;
+	overflow: hidden;
 }
 
 .icon:hover{
 	opacity: 0.5;
 }
 .icon:hover img{
-	height: 100%;
+	height: 10%;
 	opacity: 0.5;
 	max-height: 250px;
 }
@@ -82,14 +83,14 @@ h2:active {
 h2:visited {
 	color: black;
 }
-
+/*
 .left {
 	float: left;
 }
 
 .right {
 	float: right;
-}
+}*/
 
 #content {
 	margin-left: auto;
@@ -103,6 +104,8 @@ h2:visited {
 .iconbox {
 	overflow: hidden;
 	width: 100%;
-	height: 100%;
-	max-height: 300px;
+	height: 30%;
+	max-height: 30%;
+	display:flex;
+	justify-content: space-between;
 }

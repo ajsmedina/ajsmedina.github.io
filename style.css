@@ -37,13 +37,15 @@ background-color: #grey;
 }
 
 h2 {
-padding-top: 5%;
-margin: 0px;
+	padding-top: 5%;
+	margin: 0px;
+	margin-left: 20%;
 	color: black;
-text-align: center;
-font-size: 64px;
-background-color: azure;
-height: 15%;
+	text-align: center;
+	font-size: 64px;
+	background-color: azure;
+	height: 15%;
+	width: 80%;
 }
 
 #face img {
@@ -153,6 +155,10 @@ h3 {
 	overflow: hidden;
 }
 
+.imgbod img {
+	width: 100%;
+}
+
 img.inlineimgdiv {
 	min-width: 100%;
 }
@@ -160,6 +166,64 @@ img.inlineimgdiv {
 img.inlineimg {
 	float: none;
 	display: block; /*for the img inside your div */  
-margin-left: auto ;
-margin-right: auto; 
+	margin-left: auto ;
+	margin-right: auto; 
 }
+
+.pbod {
+	min-width: 350px;
+	flex-grow: 1;
+	display: inline-block;
+	width: 100%;
+	min-width: 100%;
+	padding: 0px;
+}
+
+#projectsbox {
+	text-align: center;
+padding-top: 0px;
+margin-left: 20%;
+width: 80%;
+height: 100%;
+position: absolute;
+background-color: #grey;
+display: flex;
+flex-wrap: wrap;
+flex-grow: 1;
+	background-color: azure;
+  align-items: center;
+}
+}
+
+#projectsbox .pbod .imgbod img {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+	max-width: none;
+	max-height: none;
+}
+
+#projectsbox .pbod .imgbod {
+	overflow: hidden;
+	padding: 0px;
+}
+
+
+.pcol {
+	flex: 48%;
+	max-width:48%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 1200px) {
+    .pcol {
+        flex: 90%;
+        max-width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+    }
+}
+

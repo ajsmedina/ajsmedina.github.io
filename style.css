@@ -4,6 +4,7 @@ body {
 	color: black;
 margin: 0px;
 padding: 0px;
+    transition-duration: 0.5s;
 }
 
 h1 {
@@ -171,12 +172,14 @@ img.inlineimg {
 }
 
 .pbod {
+	background-color: white;
 	min-width: 350px;
 	flex-grow: 1;
 	display: inline-block;
 	width: 100%;
 	min-width: 100%;
 	padding: 0px;
+    transition-duration: 0.5s;
 }
 
 #projectsbox {
@@ -184,14 +187,16 @@ img.inlineimg {
 padding-top: 0px;
 margin-left: 20%;
 width: 80%;
-height: 100%;
+height: 115%;
 position: absolute;
 background-color: #grey;
 display: flex;
 flex-wrap: wrap;
 flex-grow: 1;
 	background-color: azure;
-  align-items: center;
+	align-items: flex-start;
+	
+    transition-duration: 0.5s;
 }
 }
 
@@ -216,14 +221,40 @@ flex-grow: 1;
 	padding-right: 1%;
 }
 
+.pbod .txt{
+	background-color: white;
+	width: 100%;
+	height: 0px;
+	transition: height 0.5s;
+}
+
+.pbod:hover .txt {
+	height: 150px;
+	
+}
+
+.pbod:hover .imgbod{
+	height: calc(100%-150px);
+}
+
+.pbod p{
+	font-size: 14px;
+}
+
+h4 {
+	font-size: 20px;
+}
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
     .pcol {
         flex: 90%;
         max-width: 90%;
-	padding-left: 5%;
-	padding-right: 5%;
+		padding-left: 5%;
+		padding-right: 5%;
     }
+	.pbod .txt {
+		height: 150px;
+	}
 }
 

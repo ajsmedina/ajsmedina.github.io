@@ -5,7 +5,6 @@ body {
     position:absolute;
 	margin: 0px;
 	padding: 0px;
-	overflow: hidden;
 	width: 100%;
 }
 
@@ -19,39 +18,42 @@ h1 {
 
 nav { 
 	text-align: center;
-	width: 30%;
+	width: 100%;
 	min-width: 100px;
-	height: 20%;
+	height: 50%;
 	margin-top: auto;
 	margin-bottom: auto;
+	
 }
+
 
 nav a {
     transition-duration: 0.5s;
-display: inline-block;
-background-color: grey;
-color:white;
-width: 50%;
-padding-top: 5%;
-padding-bottom: 5%;
-min-width: 100px;
-text-align: center;
-vertical-align: middle;
+	display: inline-block;
+	background-color: grey;
+	color:white;
+	padding: 5% 0;
+	width: 50%;
+	min-width: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: middle;
 }
 
+a {
+	text-decoration: none;
+}
 
 nav a:hover {
-background-color: royalblue;
-width: 100%;
+	background-color: royalblue;
+	width: 80%;
 }
+
 
 
 #facebox {
 	width: 100%;
-	max-height: 30%;
-}
-
-#facebox img {
+	height: 300px;
 }
 
 #face {
@@ -65,24 +67,15 @@ width: 100%;
     transition-duration: 0.5s;
 }
 
-a {
-	text-decoration: none;
-	height: 100%;
-}
 
 #content {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+	margin: auto;
+	margin-top: 5%;
 	transition-duration: 0.5s;
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	flex-grow: 1;
 	align-items: center;
 	width: 80%;
+	height: 100%;
 	margin-left: 10%;
 	margin-right: 10%;
 }

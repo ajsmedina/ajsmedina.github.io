@@ -1,0 +1,112 @@
+body {
+	font-family: "Luciada Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: azure;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+h1 {
+    transition-duration: 0.5s;
+    color: black;
+    text-align: center;
+}
+
+.icon img {
+    transition-duration: 0.5s;
+	height: 20%;
+	max-height: 200px;
+}
+
+.icon {
+	opacity: 1;
+    transition-duration: 0.5s;
+	height: 30%;
+	overflow: hidden;
+}
+
+.icon:hover{
+	opacity: 0.5;
+}
+.icon:hover img{
+	height: 10%;
+	opacity: 0.5;
+	max-height: 250px;
+}
+
+.icon:active {
+	opacity: 0.8;
+	transition-duration: 0s;
+}
+
+.icontext {
+	opacity: 0.5;
+}
+
+.icon:hover .icontext{
+	opacity: 1;
+}
+
+#facebox {
+	width: 100%;
+	max-height: 40%;
+}
+
+#face {
+	width: 100%;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.5s;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	}
+h2:hover {
+	color: black;
+}
+h2:active {
+	color: black;
+}
+h2:visited {
+	color: black;
+}
+/*
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}*/
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	height: 100%;
+	transition-duration: 0.5s;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.iconbox {
+	overflow: hidden;
+	width: 100%;;
+	display:flex;
+	justify-content: space-between;
+}

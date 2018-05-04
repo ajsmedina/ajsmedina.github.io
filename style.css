@@ -1,3 +1,4 @@
+
 body {
 	font-family: "Open Sans", verdana, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     background-color: azure;
@@ -213,18 +214,29 @@ flex-grow: 1;
 	padding: 0px;
 }
 
+.pbod h4{
+	transition: margin 0.5s;
+	margin: 0px;
+}
+.pbod p{
+	margin: 0px;
+}
+
+.pbod:hover h4{
+	transition: margin 0.5s;
+	margin: 10px;
+}
 
 .pcol {
-	flex: 48%;
-	max-width:48%;
-	padding-left: 1%;
-	padding-right: 1%;
+	flex: 50%;
+	max-width:50%;
 }
 
 .pbod .txt{
 	background-color: white;
 	width: 100%;
 	height: 0px;
+	margin: none;
 	transition: height 0.5s;
 }
 
@@ -233,16 +245,17 @@ flex-grow: 1;
 	
 }
 
-.pbod:hover .imgbod{
-	height: calc(100%-150px);
-}
-
 .pbod p{
 	font-size: 14px;
 }
 
 h4 {
 	font-size: 20px;
+}
+
+.pcol a {
+	color: black;
+	text-decoration: none;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */

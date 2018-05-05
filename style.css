@@ -3,8 +3,8 @@ body {
 	font-family: "Open Sans", verdana, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     background-color: azure;
 	color: black;
-margin: 0px;
-padding: 0px;
+	margin: 0px;
+	padding: 0px;
     transition-duration: 0.5s;
 }
 
@@ -74,6 +74,7 @@ padding-top: 5%;
 padding-bottom: 5%;
 text-align: center;
 vertical-align: middle;
+text-decoration: none;
 }
 
 #links a:hover {

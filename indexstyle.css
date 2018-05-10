@@ -2,11 +2,9 @@ body {
 	font-family: "Luciada Sans Unicode", "Lucida Grande", sans-serif;
     background-color: azure;
 	color: black;
-                position:absolute;
-	height: 100%;
+    position:absolute;
 	margin: 0px;
 	padding: 0px;
-	overflow: hidden;
 	width: 100%;
 }
 
@@ -16,46 +14,44 @@ h1 {
     text-align: center;
 }
 
-.icon img {
+
+
+nav { 
+	text-align: center;
+	width: 100%;
+	min-width: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+
+
+nav a {
     transition-duration: 0.5s;
-	max-width:80%;
-max-height:80%;
+	background-color: grey;
+	color:white;
+	width: 50%;
+	min-width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 2em 0%;
 }
 
-.icon {
-	opacity: 1;
-    transition-duration: 0.5s;
-	overflow: hidden;
-	height: 100%;
+a {
+	text-decoration: none;
 }
 
-.icon:hover{
-	opacity: 0.5;
-}
-.icon:hover img{
-	opacity: 0.5;
-	max-height: 100%;
+nav a:hover {
+	background-color: royalblue;
+	width: 80%;
 }
 
-.icon:active {
-	opacity: 0.8;
-	transition-duration: 0s;
-}
 
-.icontext {
-	opacity: 0.5;
-}
-
-.icon:hover .icontext{
-	opacity: 1;
-}
 
 #facebox {
 	width: 100%;
-	max-height: 30%;
-}
-
-#facebox img {
+	height: 300px;
 }
 
 #face {
@@ -69,53 +65,23 @@ max-height:80%;
     transition-duration: 0.5s;
 }
 
-a {
-	text-decoration: none;
-	height: 100%;
-}
-
-h2 {
-	text-align: center;
-	color: black;
-	text-decoration: none;
-}
-h2:hover {
-	color: black;
-}
-h2:active {
-	color: black;
-}
-h2:visited {
-	color: black;
-}
 
 #content {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1000px;
+	margin: auto;
+	margin-top: 5%;
 	transition-duration: 0.5s;
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	height: 100%;
-	flex-grow: 1;
 	align-items: center;
 	width: 80%;
+	height: 100%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-.iconbox {
-	overflow: hidden;
-	width: 100%;
-	flex: 1;
-	/*height: 33%;*/
-	display: flex;
-	max-height: 30%;
-	justify-content: space-between;
+footer {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+		
 }
 
-.faceflex {
-	flex: 2;
-}
